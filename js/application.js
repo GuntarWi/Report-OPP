@@ -37,7 +37,7 @@ function LoadReport() {
       //$( "tbody" ).empty();
       // Finds a worksheet called worksheetData
       var worksheet = worksheets.find(function (sheet) {
-        return sheet.name === "Sheet 1";
+        return sheet.name === "OPP Game Exam";
       });
 
       // Call a function on the worksheet Object to get the Summary Data.
